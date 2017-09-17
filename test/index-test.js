@@ -55,7 +55,7 @@ describe('sayHiToGrandmaAgain(string)', function() {
   })
 
   it('returns "YES INDEED!" if `string` is uppercase', function() {
-    expect(sayHiToGrandmaAgain().response(`{message}`)).toEqual("YES INDEED!")
+    expect(sayHiToGrandmaAgain(response())).toEqual("YES INDEED!")
   })
 
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
