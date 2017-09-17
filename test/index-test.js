@@ -51,7 +51,7 @@ describe('sayHiToGrandma(string)', function() {
 
 describe('sayHiToGrandmaAgain(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
-    expect(sayHiToGrandmaAgain().string).toEqual("I can't hear you!")
+    expect(sayHiToGrandmaAgain(string)).toEqual("I can't hear you!")
   })
 
   it('returns "YES INDEED!" if `string` is uppercase', function() {
