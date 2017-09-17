@@ -28,11 +28,13 @@ function sayHiToGrandmaAgain(string) {
     var message = "I'm not your grandma, fool! You better run on home to her though, before I make you my B****!\n ERROR MESSAGE ERROR MESSAGE ERROR MESSAGE\n If you are recieving this message you are not making the right calls in your if statement. REVIEW AND FIX!!!"
     if (string.toUpperCase() === string)
       message = "YES INDEED!"
+      return;
     else if (string === string.toLowerCase())
       message = "I can\'t hear you!"
+      return;
     else if (string === "I love you, Grandma.")
       message = "I love you, too."
-    return;
+      return;
   }
   return response();
 }
