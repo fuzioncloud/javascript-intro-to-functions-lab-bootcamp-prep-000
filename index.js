@@ -36,5 +36,5 @@ function sayHiToGrandmaAgain(string) {
       message = "I love you, too."
       return;
   }
-  return response();
+  return;
 }
