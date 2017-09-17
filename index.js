@@ -32,6 +32,7 @@ function sayHiToGrandmaAgain(string) {
       message = "I can\'t hear you!"
     else if (string === "I love you, Grandma.")
       message = "I love you, too."
-    return message;
+    return;
   }
+  return response();
 }
