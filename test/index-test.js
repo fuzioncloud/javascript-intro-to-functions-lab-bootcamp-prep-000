@@ -59,6 +59,6 @@ describe('sayHiToGrandmaAgain(string)', function() {
   })
 
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandmaAgain(message)).toEqual("I love you, too.")
+    expect(sayHiToGrandmaAgain("I love you, too.")).toEqual("I love you, too.")
   })
 })
